@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de HTML e CSS</title>
+  <link rel="stylesheet" href="simulador html.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Simulador de HTML e CSS</h1>
+    <nav>
+      <a href="#html">HTML</a>
+      <a href="#css">CSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="html">
+      <h2>O que &eacute; HTML?</h2>
+      <p>HTML (HyperText Markup Language) &eacute; a linguagem usada para estruturar o conte&uacute;do de p&aacute;ginas na web.</p>
+
+      <div class="exemplo">
+        <pre><code>&lt;h1&gt;Meu T&iacute;tulo&lt;/h1&gt;
+&lt;p&gt;Este &eacute; um par&aacute;grafo de exemplo.&lt;/p&gt;</code></pre>
+        <div class="resultado">
+          <h1>Meu T&iacute;tulo</h1>
+          <p>Este &eacute; um par&aacute;grafo de exemplo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="css">
+      <h2>O que &eacute; CSS?</h2>
+      <p>CSS (Cascading Style Sheets) define o estilo e layout dos elementos HTML.</p>
+
+      <div class="exemplo">
+        <pre><code>h1 {
+  color: blue;
+  font-size: 2em;
+}
+
+p {
+  color: gray;
+}</code></pre>
+        <div class="resultado" style="border: 1px solid #ccc; padding: 1em;">
+          <h1 style="color: blue; font-size: 2em;">Meu T&iacute;tulo</h1>
+          <p style="color: gray;">Este &eacute; um par&aacute;grafo com estilo.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito para iniciantes em HTML e CSS.</p>
+  </footer>
+</body>
+</html>
